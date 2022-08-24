@@ -1,0 +1,20 @@
+.titulo {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-color: #111;
+    color: white;
+
+    box-shadow: 0px 2px 20px black;
+
+}
+
+.titulo:hover {
+
+    font-weight: bolder;
+
+}

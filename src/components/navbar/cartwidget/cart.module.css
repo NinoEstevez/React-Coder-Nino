@@ -1,0 +1,19 @@
+.imagenCart {
+
+    display: flex;
+
+    background-color: #111;
+    width: 50%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.jpgCart {
+
+    border-radius: 80px;
+    height: 70px;
+
+}
