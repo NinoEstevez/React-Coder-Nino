@@ -1,9 +1,10 @@
 import './App.css';
-import Body from './components/body/Body';
+import ItemListContainer from './components/ilc/ItemListContainer';
 import NavBar from './components/navbar/NavBar';
 
-
+ 
 function App() {
+
   return (
     <div className="App">
       <NavBar 
@@ -13,7 +14,7 @@ function App() {
         seccion4="Personalización" 
         seccion5="Mayorista"
       />
-      <Body saludo="Bienvenidos a la Tienda Online"/>
+      <ItemListContainer saludo="¡50% de dcto. en Temporada INVIERNO - OTOÑO!"/>
     </div>
   );
 }

@@ -1,0 +1,72 @@
+.contenedor {
+
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+
+    background-color: rgb(255, 255, 255);
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    height: 150px;
+    margin-top: 25px;
+
+    border: 2px solid silver;
+}
+
+.numero {
+
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.botonContador {
+
+width: 40%;
+margin-left: 2px;
+margin-right: 2px;
+height: 24px;
+background-color: rgb(223, 223, 223);
+border: 0;
+border-radius: 5px;
+font-size: 18px;
+font-weight: 100;
+
+}
+
+.botonCart {
+
+width: 81%;
+margin-bottom: 15px;
+height: 35px;
+
+background-color: rgb(255, 182, 225);
+font-size: 18px;
+font-family: 'Courier New', Courier, monospace;
+
+border-radius: 5px;
+border: 0;
+
+}
+
+.botonContador:hover {
+
+background-color: #111;
+color: white;
+
+}
+
+.botonCart:hover {
+
+background-color: black;
+color:  rgb(255, 182, 225);
+font-weight: bolder;
+
+}

@@ -1,0 +1,44 @@
+
+.relleno {
+
+    background-color: #1d1d1d;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px rgb(255, 255, 255) solid;
+    font-weight: bolder;
+    margin-right: 15px;
+
+
+}
+
+.simple {
+
+    background-color: rgb(255, 182, 225);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px black solid;
+    font-weight: bolder;
+    margin-right: 15px;
+
+
+}
+
+.relleno:hover {
+
+   background-color: black;
+   border: 0;
+
+
+}
+
+.simple:hover {
+
+    background-color: black;
+    color:  rgb(255, 182, 225);
+    font-weight: bolder;
+ 
+ 
+ }

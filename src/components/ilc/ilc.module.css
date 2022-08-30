@@ -2,14 +2,12 @@
 
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
-    margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
 
-    background-color: #111;
-    color: white;
+    background-color: rgb(255, 182, 225);
+    color: #111;
 
-    box-shadow: 0px 2px 20px black;
 
 }
 
