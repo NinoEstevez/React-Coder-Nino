@@ -30,8 +30,7 @@ const ItemCount = (prop) => {
         <div className={styles.contenedor}>
             <h4 className={styles.numero}> {numero} </h4>
             <button className={styles.botonContador} onClick={sumarUno}> + </button>
-            <button className={styles.botonContador} onClick={restarUno}> - </button>
-            
+            <button className={styles.botonContador} onClick={restarUno}> - </button>           
             <button className={styles.botonCart} onClick={prop.funcion}>Agregar al carrito</button>
         </div>
 
