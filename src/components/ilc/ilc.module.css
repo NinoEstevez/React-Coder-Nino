@@ -16,3 +16,16 @@
     font-weight: bolder;
 
 }
+
+.containerProducts {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+
+
+}

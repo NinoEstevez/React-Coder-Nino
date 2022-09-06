@@ -1,0 +1,31 @@
+.contenedorItems {
+
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    border: 1px solid rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 15px;
+    box-shadow: 3px 3px 25px rgb(175, 175, 175);
+
+}
+
+.img {
+
+    width: 200px;
+    height: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

@@ -1,5 +1,6 @@
 import './App.css';
 import ItemListContainer from './components/ilc/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import NavBar from './components/navbar/NavBar';
 
  
@@ -15,6 +16,7 @@ function App() {
         seccion5="Mayorista"
       />
       <ItemListContainer saludo="¡50% de dcto. en Temporada INVIERNO - OTOÑO!"/>
+      <ItemDetailContainer />
     </div>
   );
 }

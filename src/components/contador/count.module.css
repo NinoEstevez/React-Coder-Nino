@@ -3,7 +3,7 @@
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    width: 30%;
+    width: 90%;
 
     background-color: rgb(255, 255, 255);
     
@@ -14,7 +14,8 @@
     height: 150px;
     margin-top: 25px;
 
-    border: 2px solid silver;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 25px rgb(175, 175, 175);
 }
 
 .numero {

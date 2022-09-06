@@ -1,28 +1,27 @@
-import Item from "../item/Item";
+import style from './ListaItems.module.css'
 
+const ListaItems = (props) => {
 
-const ListaItems = (items) => {
+console.log(props.products)
 
-    items.map((item) => {
+return (
+
+    
+    props.products.map((item) => {
 
         return (
 
-            <Item 
-            
-            id={item.id}
-            nombre={item.nombre}
-            precio={item.precio}
-            stock={item.stock}
-            categoria={item.categoria}
-            imagen={item.imagen}
-
-            />
+            <div key={item.id} className={style.contenedorItems}>
+                <img  className={style.img} src={item.image} alt="" />
+                <h4> {item.title} </h4>
+                <h4 className={style.price}> $ {item.price} </h4>
+            </div>
 
         )
 
     })
 
-
+    )
 
 }
 
