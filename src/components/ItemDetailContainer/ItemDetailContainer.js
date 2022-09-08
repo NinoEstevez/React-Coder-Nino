@@ -12,11 +12,11 @@ const ItemDetailContainer = () => {
 
     setTimeout(() => {
 
-    fetch('https://fakestoreapi.com/products/1')
+    fetch(`https://fakestoreapi.com/products/1`)
     .then((res) => res.json())
     .then((json) => setItem(json))
 
-        }, 2000)
+        }, 500)
 
     }
         

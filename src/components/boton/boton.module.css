@@ -3,11 +3,12 @@
 
     background-color: #1d1d1d;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 50px;
-    border: 1px rgb(255, 255, 255) solid;
-    font-weight: bolder;
     margin-right: 15px;
 
 
@@ -16,12 +17,14 @@
 .simple {
 
     background-color: rgb(255, 182, 225);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     padding: 10px;
     border-radius: 50px;
     border: 1px black solid;
-    font-weight: bolder;
+    font-weight: 500;
     margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 
 }
@@ -29,7 +32,6 @@
 .relleno:hover {
 
    background-color: black;
-   border: 0;
 
 
 }
@@ -38,7 +40,6 @@
 
     background-color: black;
     color:  rgb(255, 182, 225);
-    font-weight: bolder;
  
  
  }
