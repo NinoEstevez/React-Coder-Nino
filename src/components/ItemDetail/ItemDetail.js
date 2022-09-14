@@ -2,17 +2,24 @@ import { useState } from "react";
 import ItemCount from "../contador/ItemCount";
 import style from "./ItemDetail.module.css";
 import { Link } from 'react-router-dom';
+import { useContext } from "react";
+import { CartContext } from "../../context/CartContext";
 
 const ItemDetail = ({item}) => {
 
+
+    const {cart, addToCart } = useContext(CartContext);
     const [cantidad, setCantidad] = useState(0);
 
         const addOn = (numero) => {
             
             setCantidad(numero);
                 console.log('Agregaste '+numero+' '+item.title+' al carrito.');
-   
+            addToCart(item, numero);
+
         }
+    
+    console.log(cart)
 
     return (
 
