@@ -2,17 +2,18 @@ import { useEffect } from "react";
 import { useState } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import style from './ItemDetailContainer.module.css'
-
+import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = () => {
 
     const [item, setItem] = useState({});
-  
+    const {product} = useParams();
+
     const funcion = () => {
 
     setTimeout(() => {
 
-    fetch(`https://fakestoreapi.com/products/1`)
+    fetch(`https://fakestoreapi.com/products/${product}`)
     .then((res) => res.json())
     .then((json) => setItem(json))
 
@@ -24,7 +25,7 @@ const ItemDetailContainer = () => {
 
         funcion();
         
-    }, [])
+    }, [product])
     
 
     return (

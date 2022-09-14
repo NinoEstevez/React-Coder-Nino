@@ -34,14 +34,13 @@ const NavBar = (prop) => {
             </div>
     
             </div>
+
             <ul className={style.listaNav}>
-                <li>
-                    <Link to='/home'> <a href="#">{prop.seccion1}</a> </Link>
-                </li> 
-                <li><Link to='/categories/accesorios'>{prop.seccion3}</Link> </li>
-                <li><Link to='/categories/electronica'>{prop.seccion4}</Link> </li>
-                <li><Link to='/categories/ropa'>{prop.seccion2}</Link> </li>
-                <li><Link to='/categories/otro'>{prop.seccion5}</Link> </li>
+                <li><Link to='/' className={style.a}> {prop.seccion1} </Link> </li> 
+                <li><Link to='/categories/accesorios' className={style.a}>{prop.seccion3}</Link> </li>
+                <li><Link to='/categories/electronica' className={style.a}>{prop.seccion4}</Link> </li>
+                <li><Link to='/categories/ropa' className={style.a}>{prop.seccion2}</Link> </li>
+                <li><Link to='/news' className={style.a}>{prop.seccion5}</Link> </li>
             </ul>
         </nav>
 

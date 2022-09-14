@@ -13,12 +13,11 @@ const ItemCount = (prop) => {
         
         numero < stock ? setNumero(numero + 1) : alert('Máximo numero de items alcanzados. No hay más stock.')
 
+            
     }
 
     const restarUno = () => {
         
-        console.log(numero)
-
         numero > 0 ? setNumero(numero - 1) : alert('No hay items en el carrito.')
 
     }
@@ -31,9 +30,8 @@ const ItemCount = (prop) => {
             <h4 className={styles.numero}> {numero} </h4>
             <button className={styles.botonContador} onClick={sumarUno}> + </button>
             <button className={styles.botonContador} onClick={restarUno}> - </button>           
-            <button className={styles.botonCart} onClick={prop.funcion}>Agregar al carrito</button>
+            <button className={styles.botonCart} onClick={() => prop.funcion(numero)}>Agregar al carrito</button>
         </div>
-
 
     )
 

@@ -14,7 +14,7 @@ function App() {
         seccion2="Ropa" 
         seccion3="Accesorios" 
         seccion4="Electronica" 
-        seccion5="Otros"
+        seccion5="Newsletter"
       />
       <Main />
       </div>

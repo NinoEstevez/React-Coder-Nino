@@ -1,0 +1,59 @@
+.img {
+
+    width: 20%;
+    height: 20%;
+
+
+}
+
+.contenedor {
+
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+
+    background-color: rgb(255, 255, 255);
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    height: 150px;
+    margin-top: 25px;
+
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 25px rgb(175, 175, 175);
+}
+
+
+.botonCart {
+
+width: 81%;
+margin-bottom: 15px;
+height: 35px;
+
+color: white;
+background-color: rgb(28, 145, 255);
+font-size: 18px;
+font-family: 'Rubik', sans-serif;
+
+border-radius: 5px;
+border: 0;
+
+}
+
+
+.botonCart:hover {
+
+background-color: rgb(101, 178, 250);
+color: white;
+
+}
+
+.link {
+
+    width: 60%;
+    height: auto;
+
+}

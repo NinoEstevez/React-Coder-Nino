@@ -1,16 +1,14 @@
 .cart {
 
-    height: 50px;
+    height: 40px;
     color: white;
-    opacity: 85%;
-    
 
 }
 
 .cart:hover {
 
-   
-    opacity: 100;
+
+    height: 50px;
 
 }
 

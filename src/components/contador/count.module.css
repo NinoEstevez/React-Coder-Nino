@@ -23,7 +23,7 @@
     width: 100%;
     margin-top: 20px;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rubik', sans-serif;
 
 
 }
@@ -48,9 +48,10 @@ width: 81%;
 margin-bottom: 15px;
 height: 35px;
 
-background-color: rgb(255, 182, 225);
+color: white;
+background-color: rgb(28, 145, 255);
 font-size: 18px;
-font-family: 'Courier New', Courier, monospace;
+font-family: 'Rubik', sans-serif;
 
 border-radius: 5px;
 border: 0;
@@ -66,8 +67,7 @@ color: white;
 
 .botonCart:hover {
 
-background-color: black;
-color:  rgb(255, 182, 225);
-font-weight: bolder;
+    color: white;
+    background-color: rgb(28, 145, 255);
 
 }

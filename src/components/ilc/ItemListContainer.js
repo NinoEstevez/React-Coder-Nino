@@ -20,7 +20,7 @@ const ItemListContainer = (prop) => {
 
                 } else if (categoryName === 'ropa') {
 
-                    urlApi = 'https://fakestoreapi.com/products/category/womensclothing'
+                    urlApi = "https://fakestoreapi.com/products/category/men's%20clothing"
 
                 } else if (categoryName === 'electronica') {
 
