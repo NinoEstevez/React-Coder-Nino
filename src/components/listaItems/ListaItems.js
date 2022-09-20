@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 
 const ListaItems = (props) => {
 
-console.log(props.products)
-
 return (
 
     

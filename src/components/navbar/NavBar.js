@@ -19,18 +19,26 @@ const NavBar = (prop) => {
             </div>
 
             <div className={style.contenedorBoton}>
-            <Boton
-                texto1="Registrarse"
-                variant="relleno"
-                funcion={registro}
-            />
+            
+            <a href="https://www.facebook.com/nike/" alt="">
+                <Boton
+                    texto1="Facebook"
+                    variant="relleno"
+                    funcion={registro}
+                />
+            </a>
+
+            <a href="https://www.instagram.com/nike/?hl=es" alt="">
+                <Boton
+                    texto1="Instagram"
+                    variant="simple"
+                    funcion={login}
+                />
+            </a>
+           
         
-            <Boton
-                texto1="Iniciar Sesión"
-                variant="simple"
-                funcion={login}
-            />
-            <Link to="/cart"> <CartW /> </Link>
+          
+            <Link to="/cart" className={style.a2}> <CartW /> </Link>
             </div>
     
             </div>

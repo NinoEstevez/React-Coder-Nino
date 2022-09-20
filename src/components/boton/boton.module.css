@@ -1,7 +1,7 @@
 
 .relleno {
 
-    background-color: #1d1d1d;
+    background-color: rgb(28, 145, 255);
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -14,13 +14,14 @@
 
 }
 
+
 .simple {
 
-    background-color: rgb(255, 182, 225);
+    color: white;
+    background-color: rgb(255, 28, 115);
     font-family: 'Roboto', sans-serif;
     padding: 10px;
     border-radius: 50px;
-    border: 1px black solid;
     font-weight: 500;
     margin-right: 15px;
     padding-left: 15px;
@@ -31,15 +32,17 @@
 
 .relleno:hover {
 
-   background-color: black;
+    background-color: rgb(101, 178, 250);
+    color: white;
+    
 
 
 }
 
 .simple:hover {
 
-    background-color: black;
-    color:  rgb(255, 182, 225);
+    background-color: rgb(250, 101, 158);
+    color: rgb(255, 255, 255);
  
  
  }

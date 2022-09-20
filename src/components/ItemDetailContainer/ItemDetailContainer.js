@@ -11,13 +11,9 @@ const ItemDetailContainer = () => {
 
     const funcion = () => {
 
-    setTimeout(() => {
-
     fetch(`https://fakestoreapi.com/products/${product}`)
     .then((res) => res.json())
     .then((json) => setItem(json))
-
-        }, 500)
 
     }
         

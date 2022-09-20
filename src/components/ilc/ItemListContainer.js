@@ -7,12 +7,10 @@ const ItemListContainer = (prop) => {
 
     const [items, setItems] = useState([]);
     const {categoryName} = useParams();
-    console.log(categoryName);
     let urlApi = '';
 
     const funcion = () => {
 
-        setTimeout(() => {
 
                 if (categoryName === 'accesorios') {
 
@@ -36,17 +34,12 @@ const ItemListContainer = (prop) => {
                  .then((res) => res.json())
                  .then((json) => setItems(json))
 
-
-        }, 500)
-
-
-
     }
         
     useEffect(() => {
 
         funcion();
-        console.log(items);
+        console.log("Items cargados correctamente");
 
     }, [categoryName]);
     
