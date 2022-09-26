@@ -15,22 +15,22 @@ const NavBar = (prop) => {
         <nav>
             <div className={style.contenedorImagenes}>
             <div className={style.imagenNav}>
-                <img className={style.nike} src="https://c.static-nike.com/a/images/w_1920,c_limit/mdbgldn6yg1gg88jomci/image.jpg" alt="logo" />                
+                <img className={style.nike} src="https://elementor.com/marketing/wp-content/uploads/2021/10/Elementor-Logo-Symbol-White.png" alt="logo" />                
             </div>
 
             <div className={style.contenedorBoton}>
             
             <a href="https://www.facebook.com/nike/" alt="">
                 <Boton
-                    texto1="Facebook"
                     variant="relleno"
+                    imagen="https://cdn-icons-png.flaticon.com/512/124/124010.png"
                     funcion={registro}
                 />
             </a>
 
             <a href="https://www.instagram.com/nike/?hl=es" alt="">
                 <Boton
-                    texto1="Instagram"
+                    imagen="https://www.unipile.com/wp-content/uploads/2022/09/logo_instagram.png"
                     variant="simple"
                     funcion={login}
                 />

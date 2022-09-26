@@ -1,15 +1,18 @@
 
 .relleno {
 
-    background-color: rgb(28, 145, 255);
-    color: white;
+    background-color: #111;
+    /* color: white; */
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 50px;
+    /* padding: 10px; */
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    /* border-radius: 50px; */
     margin-right: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 13px;
 
 
 }
@@ -18,31 +21,26 @@
 .simple {
 
     color: white;
-    background-color: rgb(255, 28, 115);
+    background-color: #111;
     font-family: 'Roboto', sans-serif;
-    padding: 10px;
-    border-radius: 50px;
+    /* padding: 10px; */
+    /* border-radius: 50px; */
     font-weight: 500;
     margin-right: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    height: 40px;
+    border: none;
+    border-radius: 13px;
 
 
 }
 
-.relleno:hover {
-
-    background-color: rgb(101, 178, 250);
-    color: white;
-    
 
 
-}
+ .fb {
 
-.simple:hover {
+    height: 70%;
+    border-radius: 7px;
 
-    background-color: rgb(250, 101, 158);
-    color: rgb(255, 255, 255);
- 
- 
  }
