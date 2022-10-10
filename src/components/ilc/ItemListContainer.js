@@ -8,44 +8,7 @@ import { db } from '../../firebaseConfig';
 const ItemListContainer = (prop) => {
 
     const [items, setItems] = useState([]);
-    const {categoryName} = useParams();
-    
-    
-    // let urlApi = '';
-
-    // const funcion = () => {
-
-
-    //             if (categoryName === 'accesorios') {
-
-    //                 urlApi = 'https://fakestoreapi.com/products/category/jewelery';
-
-    //             } else if (categoryName === 'ropa') {
-
-    //                 urlApi = "https://fakestoreapi.com/products/category/men's%20clothing"
-
-    //             } else if (categoryName === 'electronica') {
-
-    //                 urlApi = 'https://fakestoreapi.com/products/category/electronics'
-
-    //             } else {
-
-    //                 urlApi = 'https://fakestoreapi.com/products'
-
-    //             }
-
-    //               fetch(urlApi)
-    //              .then((res) => res.json())
-    //              .then((json) => setItems(json))
-
-    // }
-        
-    // useEffect(() => {
-
-    //     funcion();
-    //     console.log("Items cargados correctamente");
-
-    // }, [categoryName]);
+    const {categoryName} = useParams();    
 
     useEffect(() => {
 

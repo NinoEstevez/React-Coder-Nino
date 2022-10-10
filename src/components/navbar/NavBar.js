@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom';
 
 const NavBar = (prop) => {
    
-    const login = () => console.log('Iniciaste sesión')
-    const registro = () => console.log('Registro completado')
     
     return (
 
@@ -24,7 +22,6 @@ const NavBar = (prop) => {
                 <Boton
                     variant="relleno"
                     imagen="https://cdn-icons-png.flaticon.com/512/124/124010.png"
-                    funcion={registro}
                 />
             </a>
 
@@ -32,7 +29,6 @@ const NavBar = (prop) => {
                 <Boton
                     imagen="https://www.unipile.com/wp-content/uploads/2022/09/logo_instagram.png"
                     variant="simple"
-                    funcion={login}
                 />
             </a>
            

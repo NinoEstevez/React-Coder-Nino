@@ -1,7 +1,10 @@
+import { collection, serverTimestamp, addDoc } from 'firebase/firestore';
 import { useState } from 'react';
 import style from './form.module.css'
+import { db } from '../../firebaseConfig';
 
-const Form = () => {
+
+const Form = ({cart, total, clearCart, handleId}) => {
 
     const [nombre, setNombre] = useState('');
     const [email, setEmail] = useState('');
@@ -10,30 +13,42 @@ const Form = () => {
     const handleSubmit = (event) => {
 
         event.preventDefault();
-        // console.log(event.target.nombre.value);
-        console.log(nombre)
-        console.log(email)
 
-    }
+        const order = {
+
+            buyer: {nombre: nombre, email: email},
+            items: cart,
+            total: total,
+            date: serverTimestamp()
+
+        };
+
+        const orderCollection = collection(db, "orders");
+        addDoc(orderCollection, order)
+        .then((res) => {
+            handleId(res.id);
+            clearCart();
+        });
+
+    };
 
     const handleChangeNombre = (event) => {
 
         setNombre(event.target.value);
+
 
     }
 
     const handleChangeEmail = (event) => {
 
         setEmail(event.target.value);
-        console.log(email)
-
 
     }
 
     return (
 
         <div className={style.container}>
-            <h2 className={style.title}> ¡Suscribite a nuestro Newsletter! </h2>
+            <h2 className={style.title}> Datos del comprador: </h2>
             <form className={style.form} action="" onSubmit={handleSubmit}>
                 
                 <input 

@@ -11,27 +11,21 @@ const ItemDetailContainer = () => {
     const [item, setItem] = useState({});
     const {product} = useParams();
 
-    // const funcion = () => {
-
-    // fetch(`https://fakestoreapi.com/products/${product}`)
-    // .then((res) => res.json())
-    // .then((json) => setItem(json))
-
-    // }
-        
     useEffect(() => {
-
-        // funcion();
 
 
         getDoc(doc(db, 'productos', `${product}`))    
         .then((res) => {
   
-          setItem(res.data());
+          setItem({
+            
+            
+                id: res.id,
+                ...res.data()
+                           
+        });
 
         })
-
-
 
     }, [product])
     

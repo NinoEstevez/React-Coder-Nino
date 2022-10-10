@@ -23,9 +23,6 @@ const addToCart = (item, numero) => {
     } else {
 
      setCart([...cart, {...item, qty: numero, price: (item.price * numero)}])
-     console.log('Agregaste '+numero+' -'+item.title+'- al carrito.');
-     console.log("Carrito actual:")
-     console.log([...cart, {...item, qty: numero, price: (item.price * numero)}]);
   
     }
    

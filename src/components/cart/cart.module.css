@@ -48,7 +48,7 @@
     height: 35px;
     padding: 30px;
     justify-content: space-around;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 20px;
     color: white;
     background-color: rgb(255, 28, 115);
@@ -87,7 +87,7 @@
         }
 
         .botonBorrar:hover {
-    
+         
             background-color: rgb(101, 195, 250);
             color: white;
             
@@ -126,5 +126,27 @@
         height: 30px;
         width: auto;
         margin-right: 30px;
+
+    }
+
+    .idCompra {
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        box-shadow: 3px 3px 25px rgb(175, 175, 175);
+        border-radius: 15px;
+        height: 240px;
+        width: 70%;
+
+    }
+
+    .titleId {
+
+        margin-bottom: 30px;
 
     }

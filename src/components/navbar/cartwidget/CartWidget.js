@@ -1,6 +1,5 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import style from './cart.module.css';
-import { useContext, useInsertionEffect } from 'react';
+import { useContext } from 'react';
 import { CartContext } from '../../../context/CartContext';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -15,6 +14,7 @@ const CartW = () => {
 
         contarProductos();
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [cart])
 
     const contarProductos = () => {
